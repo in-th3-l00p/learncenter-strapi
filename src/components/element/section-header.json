@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_element_section_headers",
+  "info": {
+    "displayName": "Section Header"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

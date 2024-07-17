@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guide_sections",
+  "info": {
+    "singularName": "guide-section",
+    "pluralName": "guide-sections",
+    "displayName": "Guide Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "guides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::guide.guide"
+    }
+  }
+}

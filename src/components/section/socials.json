@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_section_socials",
+  "info": {
+    "displayName": "socials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.section-header"
+    },
+    "instagram": {
+      "displayName": "social",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.social"
+    },
+    "tiktok": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.social"
+    },
+    "discord": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.social"
+    },
+    "facebook": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.social"
+    }
+  }
+}
